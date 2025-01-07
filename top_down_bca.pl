@@ -12,8 +12,8 @@ np2(np2(N, ATN)) --> n(N), atp(ATN).
 np2(np2(N)) --> n(N).
 np2(np2(N)) --> prn(N).
 
-ap(inv_ap(ADJ, N)) --> adj(ADJ), np2(N).
-ap(inv_ap(N)) --> np2(N).
+ap(ap(ADJ, N)) --> adj(ADJ), np2(N).
+ap(ap(N)) --> np2(N).
 atp(atp(N1, CONJ, N2)) --> atp2(N1), conj(CONJ), atp2(N2).
 atp(atp(N)) --> atp2(N).
 atp2(atp2(ART, N)) --> art(ART), n(N).

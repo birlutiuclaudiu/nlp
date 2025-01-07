@@ -1,12 +1,12 @@
 
-[oamenii,observa,culorile,unei,zile,numai,la,sfarsit,si,la,inceput,dar,pentru,mine,este,clar,ca,ea,combina,o,multitudine,de,nuante,si,tonuri], : ,ph(s(np(np2(n(oamenii))),vp(v(observa),pp(cd(np2(n(culorile),atp(atp2(art(unei),n(zile))))),ct(adv(numai),advp(advp2(prep(la),adv(sfarsit)),conj(si),advp2(prep(la),adv(inceput))))))),conj(dar),s(np(np2(prep(pentru),inv_ap(np2(prn(mine))))),vp(vcpn(vcp(este),adv(clar)),conj(ca),s(np(np2(prn(ea))),vp(v(combina),np2(art(o),inv_ap(np2(n(multitudine),atp(atp2(prep(de),atp3(n(nuante))),conj(si),atp2(atp3(n(tonuri))))))))))))
+[oamenii,observa,culorile,unei,zile,numai,la,sfarsit,si,la,inceput,dar,pentru,mine,este,clar,ca,ea,combina,o,multitudine,de,nuante,si,tonuri], : ,ph(s(np(np2(n(oamenii))),vp(v(observa),pp(cd(np2(n(culorile),atp(atp2(art(unei),n(zile))))),ct(adv(numai),advp(advp2(prep(la),adv(sfarsit)),conj(si),advp2(prep(la),adv(inceput))))))),conj(dar),s(np(np2(prep(pentru),ap(np2(prn(mine))))),vp(vcpn(vcp(este),adv(clar)),conj(ca),s(np(np2(prn(ea))),vp(v(combina),np2(art(o),ap(np2(n(multitudine),atp(atp2(prep(de),atp3(n(nuante))),conj(si),atp2(atp3(n(tonuri))))))))))))
 
-[o,singura,ora,poate,consta,in,mii,de,culori,diferite], : ,ph(s(np(np2(art(o),inv_ap(adj(singura),np2(n(ora))))),vp(vcpn(vcp(poate),v(consta)),np(np2(prep(in),inv_ap(np2(n(mii),atp(atp2(prep(de),atp3(n(culori),adj(diferite)))))))))))
+[o,singura,ora,poate,consta,in,mii,de,culori,diferite], : ,ph(s(np(np2(art(o),ap(adj(singura),np2(n(ora))))),vp(vcpn(vcp(poate),v(consta)),np(np2(prep(in),ap(np2(n(mii),atp(atp2(prep(de),atp3(n(culori),adj(diferite)))))))))))
 
 [galbenuri,ceruite,,,nuante,de,albastru,si,intunecimi,de,nepatruns,sunt,importante,de,observat], : ,ph(s(np(np2(n(galbenuri),atp(atp2(atp3(adj(ceruite))))),conj(,),np2(n(nuante),atp(atp2(prep(de),atp3(n(albastru))),conj(si),atp2(atp3(n(intunecimi),prep(de),adj(nepatruns)))))),vp(vcpn(vcp(sunt),adj(importante)),pastverb(prep(de),vpast(observat)))))
 
 [mie,imi,place,cerul,ciocolatiu], : ,ph(s(np(np2(prn(mie))),vp(prefl(imi),vp(v(place),np2(n(cerul),atp(atp2(atp3(adj(ciocolatiu)))))))))
 
-[totusi,incerc,sa,ma,bucur,de,fiecare,culoare,din,intreg,spectrul], : ,ph(s(adv(totusi),vp(v(incerc),pconj(adv(sa),prefl(ma),vp(v(bucur),np2(prep(de),inv_ap(adj(fiecare),np2(n(culoare),atp(atp2(prep(din),atp3(adj(intreg),n(spectrul))))))))))))
+[totusi,incerc,sa,ma,bucur,de,fiecare,culoare,din,intreg,spectrul], : ,ph(s(adv(totusi),vp(v(incerc),pconj(adv(sa),prefl(ma),vp(v(bucur),np2(prep(de),ap(adj(fiecare),np2(n(culoare),atp(atp2(prep(din),atp3(adj(intreg),n(spectrul))))))))))))
 
-all solutions in 0.005 seconds.
+all solutions in 0.003 seconds.
