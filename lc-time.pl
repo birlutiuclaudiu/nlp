@@ -65,37 +65,41 @@ leaf(conj) --> [dar].
 leaf(conj) --> [ca].
 leaf(conj) --> [','].
 
-lcd(s, ph) :- !.
-lcd(np, s) :- !.
-lcd(adv, s) :- !.
-lcd(np2, np) :- !.
-lcd(art, np2) :- !.
-lcd(prep, np2) :- !.
-lcd(n, np2) :- !.
-lcd(prn, np2) :- !.
-lcd(adj, ap) :- !.
-lcd(np2, ap) :- !.
-lcd(atp2, atp) :- !.
-lcd(art, atp2) :- !.
-lcd(prep, atp2) :- !.
-lcd(atp3, atp2) :- !.
-lcd(n, atp3) :- !.
-lcd(adj, atp3) :- !.
-lcd(vcpn, vp) :- !.
-lcd(v, vp) :- !.
-lcd(prefl, vp) :- !.
-lcd(adv, vp) :- !.
-lcd(pconj, vp) :- !.
-lcd(prep, pastverb) :- !.
-lcd(cd, pp) :- !.
-lcd(np2, cd) :- !.
-lcd(adv, ct) :- !.
-lcd(advp2, advp) :- !.
-lcd(prep, advp2) :- !.
-lcd(adv, advp2) :- !.
-lcd(vcp, vcpn) :- !.
-lcd(v, vcpn) :- !.
-lcd(adj, vcpn) :- !.
+lcd(s, ph).
+
+lcd(np, s).
+lcd(adv, s).
+
+lcd(np2, np).
+lcd(art, np2).
+lcd(prep, np2).
+lcd(n, np2).
+lcd(prn, np2).
+
+lcd(adj, ap).
+lcd(np2, ap).
+lcd(atp2, atp).
+lcd(art, atp2).
+lcd(prep, atp2).
+lcd(atp3, atp2).
+lcd(n, atp3).
+lcd(adj, atp3).
+
+lcd(vcpn, vp).
+lcd(v, vp).
+lcd(prefl, vp).
+
+lcd(adv, pconj).
+lcd(prep, pastverb).
+
+lcd(cd, pp).
+lcd(np2, cd).
+lcd(adv, ct).
+lcd(advp2, advp).
+lcd(prep, advp2).
+lcd(adv, advp2).
+
+lcd(vcp, vcpn).
 
 lc(X,X):-!.
 lc(X,Y):-lcd(X,Y),!.
@@ -206,35 +210,35 @@ art(art, A, A) --> [].
 adv(adv, A, A) --> [].
 vpast(vpast, A, A) --> [].
 
-test(_, _, 10) :- !.
+test(_, _, 1) :- !.
 test(S, A, I) :-
     S = [oamenii, observa, culorile, unei, zile, numai, la, sfarsit, si, la, inceput, dar, pentru, mine, este, clar, ca, ea, combina, o, multitudine, de, nuante, si, tonuri],
     parse(ph, A, S, []),
     I1 is I + 1,
     test(S, A, I1).
 
-test1(_, _, 10) :- !.
+test1(_, _, 1) :- !.
 test1(S, A, I) :-
     S = [o, singura, ora, poate, consta, in, mii, de, culori, diferite],
     parse(ph, A, S, []),
     I1 is I + 1,
     test1(S, A, I1).
 
-test2(_, _, 10) :- !.
+test2(_, _, 1) :- !.
 test2(S, A, I) :-
     S = [galbenuri, ceruite, ',', nuante, de, albastru, si, intunecimi, de, nepatruns, sunt, importante, de, observat],
     parse(ph, A, S, []),
     I1 is I + 1,
     test2(S, A, I1).
 
-test3(_, _, 10) :- !.
+test3(_, _, 1) :- !.
 test3(S, A, I) :-
     S = [mie, imi, place, cerul, ciocolatiu],
     parse(ph, A, S, []),
     I1 is I + 1,
     test3(S, A, I1).
 
-test4(_, _, 10) :- !.
+test4(_, _, 1) :- !.
 test4(S, A, I) :-
     S = [totusi, incerc, sa, ma, bucur, de, fiecare, culoare, din, intreg, spectrul],
     parse(ph, A, S, []),
