@@ -125,6 +125,7 @@ w(adj, importante).
 w(adj, ciocolatiu).
 w(adj, fiecare).
 w(adj, intreg).
+w(adj, nepatruns).
 
 % Adverbs
 w(adv, numai).
@@ -190,7 +191,7 @@ test_all:-tell('chart-td-time-.doc'),
 
             test1(E1,A1), nl,write([E1,A1]),
 
-			test1(E2,A2), nl,write([E2,A2]),
+			test2(E2,A2), nl,write([E2,A2]),
 
             test3(E3,A3), nl,write([E3,A3]),
 
